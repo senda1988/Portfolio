@@ -32,7 +32,7 @@ nav ul li {
     margin: 10px 14px;
     transition: 0.3s;
     position: relative;
-    color: var(--color-body);
+
     font-weight: 400;
     text-decoration: none;
 }
@@ -42,6 +42,8 @@ nav ul li a {
     text-transform: uppercase;
     display: inline-block;
     padding: 0.5rem 1rem;
+    color: white;
+    text-decoration: none;
 }
 
 .elementor_container {
@@ -124,4 +126,22 @@ nav ul li a {
 
 .elementor_colum_30 div {
     margin-bottom: 15px;
+}
+
+a.rn-btn {
+    margin: 15px;
+    border-radius: 6px;
+    background: linear-gradient(145deg, #1e2024, #23272b);
+    font-size: 14px;
+    font-weight: 500;
+    border: 0 none;
+    display: inline-block;
+    padding: 15px 35px;
+    list-style: none;
+    color: red;
+    position: relative;
+}
+
+.text-left {
+    text-align: left !important;
 }
