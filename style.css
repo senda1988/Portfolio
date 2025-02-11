@@ -2,6 +2,10 @@ body {
     background-color: #212428;
     color: white;
     font-family: "Poppins", sans-serif;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -32,7 +36,6 @@ nav ul li {
     margin: 10px 14px;
     transition: 0.3s;
     position: relative;
-
     font-weight: 400;
     text-decoration: none;
 }
@@ -47,7 +50,7 @@ nav ul li a {
 }
 
 .elementor_container {
-    max-width: 1320px;
+    max-width: 90%;
     display: flex;
 
     margin-right: auto;
@@ -126,24 +129,30 @@ nav ul li a {
 
 .elementor_colum_30 div {
     margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.elementor_colum_30 div a {
+    margin: 15px 5px;
 }
 
 a.rn-btn {
-    margin: 15px;
+    margin: 30 px;
     border-radius: 6px;
     background: linear-gradient(145deg, #1e2024, #23272b);
     font-size: 14px;
     font-weight: 500;
     border: 0 none;
-    display: inline-block;
+
     padding: 15px 35px;
-    list-style: none;
+    text-decoration: none;
     color: red;
     position: relative;
 }
 
 .text-left {
     text-align: left !important;
+    position: absolute;
 }
 
 .last_item a {
