@@ -145,3 +145,15 @@ a.rn-btn {
 .text-left {
     text-align: left !important;
 }
+
+.last_item a {
+    border-radius: 6px;
+    position: relative;
+    z-index: 2;
+    font-size: 14px;
+    font-weight: 500;
+    border: 0 none;
+    color: red;
+    font-weight: 700;
+
+}
