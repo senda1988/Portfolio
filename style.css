@@ -1,169 +1,176 @@
+html,
 body {
-    background-color: #212428;
-    color: white;
-    font-family: "Poppins", sans-serif;
-    background-image: url("background.jpg");
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
-}
-
-header {
-    display: block;
-}
-
-.align-items-center {
-    align-items: center !important;
-}
-
-nav {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-}
-
-nav ul {
-    display: flex;
-
-    flex-wrap: wrap;
-    margin: 25px;
-    padding: 0;
-    list-style: none;
-
-}
-
-nav ul li {
-    margin: 10px 14px;
-    transition: 0.3s;
-    position: relative;
-    font-weight: 400;
-    text-decoration: none;
-}
-
-nav ul li a {
-    font-size: 13px;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 20px;
-    color: white;
-    text-decoration: none;
-}
-
-.elementor_container {
-    max-width: 90%;
-    display: flex;
-
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
-}
-
-.top_section {
-    padding: 75px 0px 62px 0px;
-}
-
-.elementor_colum_30 {
-    width: 35%;
-    padding: 15px;
-    /* transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--e-transform-transition-duration, .4s);*/
-    box-sizing: border-box;
-    padding: 45px;
-    background: var(--background-color-2);
-    box-shadow: var(--shadow-1);
-    border-radius: 10px 10px 0 0;
-    background-color: #313131;
-    margin: 15px;
-}
-
-.elementor_colum_60 {
-    width: 60%;
-    padding: 15px;
-    position: relative;
-    background-color: #313131;
-    margin: 15px;
-
-
-}
-
-.thumbnail {
-    overflow: hidden;
-    border-radius: 8px;
-    width: auto;
-}
-
-.thumbnail img {
-    border-radius: 8px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
     width: 100%;
-    transition: transform 0.5s ease-in-out;
-}
 
-.thumbnail img:hover {
-    transform: scale(1.1);
-}
+    body {
+        background-color: #212428;
+        color: white;
+        font-family: "Poppins", sans-serif;
+        background-image: url("background.jpg");
+        background-size: cover;
+        background-position: bottom;
+        background-repeat: no-repeat;
+    }
 
-.title {
-    color: #ffffff;
-    font-weight: 800;
-    font-size: 45px;
-    line-height: 62px;
-    margin-bottom: 30px;
-}
+    header {
+        display: block;
+    }
 
-.title span {
-    color: red;
-}
+    .align-items-center {
+        align-items: center !important;
+    }
 
-.disc {
-    font-size: 16px;
-    color: rgb(210, 209, 209);
-    line-height: 24px;
-}
+    nav {
+        position: relative;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
 
-.fa-solid {
+    nav ul {
+        display: flex;
 
-    color: red;
-    margin-right: 10px;
-    font-size: 24px;
-}
+        flex-wrap: wrap;
+        margin: 25px;
+        padding: 0;
+        list-style: none;
 
-.elementor_colum_30 div {
-    margin-bottom: 15px;
-    margin-top: 20px;
-}
+    }
 
-.elementor_colum_30 div a {
-    margin: 15px 5px;
-}
+    nav ul li {
+        margin: 10px 14px;
+        transition: 0.3s;
+        position: relative;
+        font-weight: 400;
+        text-decoration: none;
+    }
 
-a.rn-btn {
-    margin: 30 px;
-    border-radius: 6px;
-    background: linear-gradient(#1e2024, #474748);
-    font-size: 14px;
-    font-weight: 500;
-    border: 0 none;
+    nav ul li a {
+        font-size: 13px;
+        text-transform: uppercase;
+        display: inline-block;
+        padding: 20px;
+        color: white;
+        text-decoration: none;
+    }
 
-    padding: 15px 35px;
-    text-decoration: none;
-    color: red;
-    position: relative;
-}
+    .elementor_container {
+        max-width: 90%;
+        display: flex;
 
-.text-left {
-    text-align: left !important;
-    position: absolute;
-}
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+    }
 
-.last_item a {
-    border-radius: 6px;
-    position: relative;
-    z-index: 2;
-    font-size: 14px;
-    font-weight: 500;
-    border: 0 none;
-    color: red;
-    font-weight: 700;
+    .top_section {
+        padding: 75px 0px 62px 0px;
+    }
 
-}
+    .elementor_colum_30 {
+        width: 35%;
+        padding: 15px;
+        /* transition: background .3s, border .3s, border-radius .3s, box-shadow .3s, transform var(--e-transform-transition-duration, .4s);*/
+        box-sizing: border-box;
+        padding: 45px;
+        background: var(--background-color-2);
+        box-shadow: var(--shadow-1);
+        border-radius: 10px 10px 0 0;
+        background-color: #313131;
+        margin: 15px;
+    }
+
+    .elementor_colum_60 {
+        width: 60%;
+        padding: 15px;
+        position: relative;
+        background-color: #313131;
+        margin: 15px;
+
+
+    }
+
+    .thumbnail {
+        overflow: hidden;
+        border-radius: 8px;
+        width: auto;
+    }
+
+    .thumbnail img {
+        border-radius: 8px;
+
+        width: 100%;
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .thumbnail img:hover {
+        transform: scale(1.1);
+    }
+
+    .title {
+        color: #ffffff;
+        font-weight: 800;
+        font-size: 45px;
+        line-height: 62px;
+        margin-bottom: 30px;
+    }
+
+    .title span {
+        color: red;
+    }
+
+    .disc {
+        font-size: 16px;
+        color: rgb(210, 209, 209);
+        line-height: 24px;
+    }
+
+    .fa-solid {
+
+        color: red;
+        margin-right: 10px;
+        font-size: 24px;
+    }
+
+    .elementor_colum_30 div {
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+
+    .elementor_colum_30 div a {
+        margin: 15px 5px;
+    }
+
+    a.rn-btn {
+        margin: 30 px;
+        border-radius: 6px;
+        background: linear-gradient(#1e2024, #474748);
+        font-size: 14px;
+        font-weight: 500;
+        border: 0 none;
+
+        padding: 15px 35px;
+        text-decoration: none;
+        color: red;
+        position: relative;
+    }
+
+    .text-left {
+        text-align: left !important;
+        position: absolute;
+    }
+
+    .last_item a {
+        border-radius: 6px;
+        position: relative;
+        z-index: 2;
+        font-size: 14px;
+        font-weight: 500;
+        border: 0 none;
+        color: red;
+        font-weight: 700;
+
+    }
